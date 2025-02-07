@@ -25,15 +25,16 @@ names = list(workout_stats.keys())
 minutes = list(workout_stats.values())
 workout_list = []
 for i in range(0, len(names)):
-    workout_list.append(names[i])
+    exercises = []
+    exercises.append(names[i])
     for j in range(0, len(minutes)):
         if (j == 0):
-            workout_list.append("yoga")
+            exercises.append("yoga")
         elif (j == 1):
-            workout_list.append("running")
+            exercises.append("running")
         else:
-            workout_list.append("weightlifting")
-
+            exercises.append("weightlifting")
+    workout_list.append(exercises)
 print(workout_list)                     # list
 
 
