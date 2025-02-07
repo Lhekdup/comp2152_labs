@@ -38,6 +38,4 @@ for i in range(0, len(names)):
 print(workout_list)                     # list
 
 
-#y = slice(2)
-#print(first_two)
 
