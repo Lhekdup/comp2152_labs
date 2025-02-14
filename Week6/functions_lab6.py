@@ -157,4 +157,5 @@ def load_game():
                 return last_line
     except FileNotFoundError:
         print("    |      No previous game found. Starting fresh..")
+        return None
 # Lab 06 - Question 5b
